@@ -55,7 +55,7 @@
 			<div id="nav">
 				<select id="files">
 				
-				<option value="file0">testPrime/pkg/losic/prime.go (75.0%)</option>
+				<option value="file0">testPrime/pkg/losic/prime.go (100.0%)</option>
 				
 				</select>
 			</div>
@@ -80,13 +80,13 @@ func IsPrime(n int) (bool, string) <span class="cov8" title="1">{
         }</span>
 
         // negative numbers are not prime
-        <span class="cov8" title="1">if n &lt; 0 </span><span class="cov0" title="0">{
+        <span class="cov8" title="1">if n &lt; 0 </span><span class="cov8" title="1">{
                 return false, "Negative numbers are not prime, by definition!"
         }</span>
 
         // use the modulus operator repeatedly to see if we have a prime number
         <span class="cov8" title="1">for i := 2; i &lt;= n/2; i++ </span><span class="cov8" title="1">{
-                if n%i == 0 </span><span class="cov0" title="0">{
+                if n%i == 0 </span><span class="cov8" title="1">{
                         // not a prime number
                         return false, fmt.Sprintf("%d is not a prime number because it is divisible by %d", n, i)
                 }</span>
