@@ -1,0 +1,9 @@
+mode: set
+testPrime/pkg/losic/prime.go:5.36,7.22 1 1
+testPrime/pkg/losic/prime.go:12.2,12.11 1 1
+testPrime/pkg/losic/prime.go:17.2,17.28 1 1
+testPrime/pkg/losic/prime.go:24.2,24.54 1 1
+testPrime/pkg/losic/prime.go:7.22,9.3 1 1
+testPrime/pkg/losic/prime.go:12.11,14.3 1 0
+testPrime/pkg/losic/prime.go:17.28,18.15 1 1
+testPrime/pkg/losic/prime.go:18.15,21.4 1 0
